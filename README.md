@@ -19,3 +19,9 @@ As a student of FAST-NUCES i was assiged a mid project to create a sudoku game u
 So, i created this game by using simple logics. I created different files and included them in one diver file which is `game.sh`. The game has 2 modes, EASY and Dificult. In EASY mode i display a sudoku board of 3X3 matrix and in Difficult Mode i display a board of 9X9. On a right move the played index will be represented by green color and on wrong move with a red color. I've used `figlet` & `tput` packages to make UI of game look better.
 Regarding logic of game, To avoid deadlock. I create a unique solution of SUDOKU game everytime game is played by using a pre exisiting sudoku solution which i 've stored in the game. The logic is easy and you can easily understand it as the code is wel;l formatted and properly commented.
 * If you have any query you can freely ask me at iem.saad@hotmail.com I will feel happy to help you. ♥️
+
+
+# game play
+
+![sudoku-lose-cond](https://user-images.githubusercontent.com/54322326/129939433-d3054b98-7fea-49b6-b02a-7788881978f2.JPG)
+![sudoku-win-cond](https://user-images.githubusercontent.com/54322326/129939440-f7b92de8-303d-4522-9ae2-9b391683350e.JPG)
